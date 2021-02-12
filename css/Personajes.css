@@ -1,0 +1,70 @@
+body{
+    justify-content: center;
+    background-color: rgb(196, 195, 195);
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(231, 230, 230);
+    flex:0 0 80%;
+}
+
+.lateralizq{
+    flex:0 0 10%;
+}
+
+.lateralder{
+    flex:0 0 10%;
+    
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+}
+
+.tipo{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contcamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 5px;
+    
+}
+
+.campeon{
+    width: 100%;
+    height: auto;
+}
+
+.textocamp{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    font-size: x-large;
+    text-align: center;
+}
+
+.filacamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr;
+}
+
+@media(min-width: 600px){
+.contenido{
+        display: flex;
+        flex-direction: row;
+    }
+
+}

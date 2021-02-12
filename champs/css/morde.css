@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(39, 56, 52);
+}
+
+#wrapper{
+    background-color: rgb(142, 204, 140);
+   
+}
+.img{
+    width: 40%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.historia{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
+    grid-gap: 10px;
+}
+
+
+.logoh{
+    width: 75px;
+    height: 75px;
+    flex: 0 0 20%;
+    
+    margin-right: 20px;
+}
+
+.habi{
+    display: flex;
+    flex-direction: row;
+}
+
+.texth{
+    flex: 0 0 80%;
+    margin: auto;
+    align-items: left;
+}
+
+video{
+    width:80%;
+    height: 80%;
+}
+
+.skins{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.contcamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 5px;
+    
+}
+
+.campeon{
+    width: 100%;
+    height: auto;
+}
+
+.textocamp{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    font-size: x-large;
+    text-align: center;
+}
+
+.filacamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr;
+}
+
+@media(min-width: 600px){
+
+#wrapper{
+    background-color: rgb(143, 204, 141);
+    margin: auto;
+    width: 80%;
+}
+.img{
+    width: 40%;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.historia{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.histotext{
+    flex: 0 0 40%;
+}
+
+.histoimg{
+    flex: 0 0 60%;
+}
+
+.habilidades{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
+    grid-gap: 10px;
+}
+
+.logoh{
+    width: 75px;
+    height: 75px;
+    flex: 0 0 20%;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.habi{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.texth{
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+video{
+    width: 100%;
+    margin: auto;
+}
+
+.skins{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.contcamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 5px;
+    
+}
+
+.campeon{
+    width: 100%;
+    height: auto;
+}
+
+.textocamp{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    font-size: x-large;
+    text-align: center;
+}
+
+.filacamp{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr;
+}
+}

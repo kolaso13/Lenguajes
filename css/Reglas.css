@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(196, 195, 195);
+}
+.main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    background-color: rgb(231, 230, 230);
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.comosejuega{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.textocsj{
+    flex: 0 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+
+.mapa{
+    display:flex;
+    flex-direction: row;
+    flex: 0 0 35%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.imgcsj{
+    width: 100%;
+    height: auto;
+}
+
+.gruplineas{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.lineas{ 
+    margin-top: 10%;
+}
+
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+@media(min-width: 600px){
+
+.comosejuega{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.lineas{ 
+    margin-top: 2%;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+}
